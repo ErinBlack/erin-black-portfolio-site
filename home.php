@@ -46,10 +46,10 @@
 
 					<!-- Start Skills Tiles-->
 					<div class="skills-tiles">
-						<div class="tiles" id="tile-graphic-design"></div>
-						<div class="tiles" id="tile-web-design"></div>
-						<div class="tiles" id="tile-marketing"></div>
-						<div class="tiles" id="tile-seo"></div>
+            <div class="tiles"><img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/github.png" alt=""></div>
+						<div class="tiles"></div>
+						<div class="tiles"></div>
+						<div class="tiles"></div>
 					</div>
 
 					<!-- End Name and Intro -->

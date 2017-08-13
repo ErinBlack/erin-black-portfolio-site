@@ -1,0 +1,477 @@
+/*
+Theme Name: Erin Black Portfolio Theme
+Author: Erin Black
+Description: Theme
+Version: 0.0.1
+Tags: portfolio
+*/
+
+/* General CSS*/
+* {
+ margin: 0;
+}
+
+html, body {
+ height: 100%;
+ margin-top: -32px !important;
+ font-size: 1em;
+}
+
+h1 {
+ font-family: 'Questrial', sans-serif;
+ color: #4bb3c2;
+ font-size: 300%;
+ font-weight: lighter;
+}
+
+h2 {
+ font-family: 'Raleway', sans-serif;
+ color: #818181;
+ font-size: 250%
+
+}
+h3 {
+ font-family: 'Sanchez', serif;
+ color: #bd735a;
+ font-size: 200%
+}
+
+h4 {
+ font-family: 'Sanchez', serif;
+ color: #bd735a;
+ font-size: 150%
+}
+
+p {
+ font-family: 'Raleway', sans-serif;
+ font-size: 120%;
+ color:#70706d;
+}
+
+.wrapper {
+ max-width: 100%;
+   margin: 0 auto;
+}
+
+
+
+/* Above the Fold Styles*/
+.bkg-img {
+   margin-top: -100px;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-size: cover;
+     background-image: url(http://localhost:8888/my-theme/wp-content/uploads/2017/08/wood-coffee-iphone-notebook.jpg);
+   }
+
+
+
+/* Header Styles*/
+
+header {
+ width: 100%;
+ height: 100px;
+}
+
+.head-logo {
+ width: 35%;
+ height: 110px;
+ float: left;
+}
+
+.header-div {
+  width: 100%;
+  overflow: hidden;
+  height: 30%
+}
+
+.head-logo img {
+ max-width:100%;
+ max-height:100%;
+ padding: 30px 0 0 30px;
+}
+
+.home-menu {
+  margin: 20px 30px 0 0;
+ width: 60%;
+ float: right;
+}
+
+.home-menu ul{
+  list-style-type: none;
+}
+
+/*Home nav menu*/
+.home-menu li a{
+  font-family;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 15px 20px;
+  color: #f7f7f7;
+  text-transform: uppercase;
+}
+
+.home-menu ul li a {
+    display: block;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+    float: left;
+    float: right;
+}
+
+
+/*Above th Fold Text*/
+
+.img-text {
+ width: 50%;
+ margin:0 40px 20px 30px;
+}
+
+#img-text-1 {
+ font-family: 'Questrial', sans-serif;
+ color: #f1f0f0;
+ font-size: 1.5em;
+}
+#img-text-2 {
+ font-family: 'Questrial', sans-serif;
+ color: #fde971;
+ font-size: 4.2em;
+ margin: -10px 0 0 -3px;
+}
+
+#img-text-3 {
+ font-family: 'Questrial', sans-serif;
+ color: #4bb3c2;
+ font-size: 3.1em;
+ margin: -15px 0 0 -1px;
+}
+
+#img-text-4 {
+ font-family: 'Questrial', sans-serif;
+ color: #f1f0f0;
+ font-size: 1.25em;
+ margin: 0 0 0 -1px;
+}
+
+#learn-more-outside {
+   width: 195px;
+   height: 20px;
+   border-radius: 5px;
+ border: solid 15px #bf745b;
+ background-color: #bf745b;
+   margin: 20px 0 ;
+}
+
+#learn-more {
+ font-family: 'Questrial', sans-serif;
+ color: #f1f0f0;
+ height: 15px;
+ font-size: 1.6em;
+ text-align: center;
+ border-radius: 5px;
+ border: solid 1px #d8d4cc;
+ padding: 10px;
+ margin-top: -8px;
+ background-color: #bf745b;
+
+}
+
+.button-text p{
+ font-family: 'Questrial', sans-serif;
+ color: #f1f0f0;
+ font-size: 1.6em;
+ text-align: center;
+}
+
+/* Index Body Content */
+
+
+.index-body {
+ height: 100%;
+ width: 100%;
+
+}
+
+
+/*	Skills Tiles  */
+
+.skills-tiles {
+ width: 100%;
+ height: 400px;
+}
+
+.index-header {
+ height: 130px;
+ text-align: center;
+ padding: 20px 10px;
+   max-width: 900px;
+   margin: 17% auto;
+   border: #dcd9d5 3px solid;
+}
+
+.tiles {
+ width: 25%;
+ height: 100%;
+ float: left;
+}
+
+#tile-graphic-design {
+ background-image: url(images/graphic-design.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #efc383;
+
+
+}
+
+#tile-web-design {
+ background-image: url(images/web-design.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #7cc8ce;
+}
+
+#tile-seo {
+ background-image: url(images/seo.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ background-color: #bf745b;
+
+}
+
+.copy-section {
+ height: 500px;
+ margin: 40px 0;
+ width: 100%;
+}
+
+.copy-img {
+ width: 50%;
+ height: 300px;
+ margin: 0 auto;
+}
+
+.copy-img img {
+   height: 120%;
+   margin: 20px 0 0 0;
+ }
+
+
+.copy-txt {
+ width: 50%;
+ height: 380px;
+ padding: 20px 0 0 0;
+}
+
+.copy-txt-cont {
+   padding: 20px 50px;
+       }
+.copy-txt-cont h2 {
+ padding: 0 0 10px 0;
+ font-weight: lighter;
+}
+
+.copy-txt-cont h3{
+ padding: 0 0 10px 0;
+ font-weight: lighter;
+}
+
+.underline {
+ margin: -10px 0 0 0;
+ border: solid 1px #70706d;
+ width: 250px;
+
+}
+
+#profile-img {
+ float: left;
+}
+#profile-txt {
+ float: right;
+}
+
+#experience-txt {
+ float: left;
+}
+#experience-img {
+ float: right;
+}
+
+#experience-img img {
+ margin: 20px 0 0 20% ;
+}
+
+
+
+#work-txt {
+ float: right;
+}
+#work-img {
+ float: left;
+}
+
+.center-h2 {
+ text-align: center;
+ font-size: 3.0em;
+ font-weight: 100;
+ margin: 20px 0;
+}
+
+
+
+.content {
+ position: absolute;
+     top: 100%;
+     width: 100%;
+   } */
+
+/* Footer */
+
+footer {
+ width: 100%;
+ height: 100px;
+ margin: auto;
+ float:right;
+   position:relative;
+   text-align:left;
+}
+
+footer ul {
+ list-style: none;
+   display: table;
+   margin: 0 auto;
+}
+footer li {
+ float: left;
+ margin: 30px;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width : 0px) and (max-width : 760px) {
+
+ /*  ---- Start Header Logo and Menu  ------- */
+ .head-logo {
+     width: 75%;
+     height: 100px;
+ }
+ #logo-img {
+   max-height: 70%;
+ }
+ #cssmenu {
+   height: 70px;
+   padding: 30px 30px 0 0;
+ }
+ /*  ---- End Header Logo and Menu  ------- */
+
+ /*  ---- Start Img Text   ------- */
+  .img-text {
+
+   width: 60%;
+   border: solid 6px #f1f0f0;
+   background-color: rgba(112, 112, 109, 0.3);
+   padding: 20px;
+   margin-top: 40px !important;
+   margin: 0 auto;
+   float: none;
+  }
+
+  #img-text-1 {
+    text-align: center;
+    color: #f1f0f0;
+    font-size: 1.2em;
+  }
+
+  #img-text-2 {
+   text-align: center;
+   color: #f1f0f0;
+    font-size: 3.4em;
+  }
+
+  #img-text-3 {
+    text-align: center;
+    color: #f1f0f0;
+    font-size: 2.5em;}
+
+  #img-text-4 {
+    text-align: center;
+    color: #f1f0f0;
+    font-size: 1em;
+  }
+
+  #learn-more-outside {
+   width: 200px;
+   margin: 0 auto;
+   margin-top: 20px;
+
+
+  }
+  /*  ---- End Img Text   ------- */
+
+  /*  ---- Start Copy   ------- */
+  .copy-img {
+   width: 250px; margin: 0 auto;
+   height: 200px;
+ }
+
+ .copy-img img {
+   height: 100%;
+ }
+
+ #profile-img {
+   float: none;
+ }
+
+ #experience-img {
+ float: none;
+}
+
+ #experience-img img {
+ margin: 0;
+}
+
+
+ .underline {
+   margin-bottom: 10px !important;
+   width: 250px; margin: 0 auto;
+
+ }
+
+ .copy-txt {
+   width: 100%;
+   height: 200px;
+   text-align: center;
+ }
+ .copy-txt-cont { padding: 20px 20px;
+       }
+
+ h1 {font-size: 2.5em;}
+ h2 {font-size: 2em;}
+ h3 {font-size: 1.5em;}
+ h4 {font-size: 1.2em;}
+ p {font-size: 1em;}
+
+
+
+   /*  ---- End Copy   ------- */
+
+
+}
+
+
+@media only screen and (max-width:800px){
+       /* styles for browsers larger than 800px; */
+ .head-logo {
+   width: 75%;
+   height: 100px;
+}
+
+ #cssmenu {width: 15%;}
+
+
+ .wrapper {
+ max-width: 680px;
+   margin: 0 auto;
+}
+}

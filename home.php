@@ -46,10 +46,26 @@
 
 					<!-- Start Skills Tiles-->
 					<div class="skills-tiles">
-            <div class="tiles"><img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/github.png" alt=""></div>
-						<div class="tiles"></div>
-						<div class="tiles"></div>
-						<div class="tiles"></div>
+            <div class="tiles">
+              <img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/github.png"
+              alt="Github Icon">
+                <h3>My Github</h3>
+            </div>
+						<div class="tiles">
+              <img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/resume.png"
+              alt="Resume Icon">
+              <h3>Resume</h3>
+            </div>
+						<div class="tiles">
+              <img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/myWork.png"
+              alt="My Work Icon">
+              <h3>Work</h3>
+            </div>
+						<div class="tiles">
+              <img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/contact.png"
+              alt="Contact Icon">
+              <h3>Contact</h3>
+            </div>
 					</div>
 
 					<!-- End Name and Intro -->

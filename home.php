@@ -24,7 +24,7 @@
 				<p id="img-text-1">DESIGN SOLUTIONS</p>
 				<P id="img-text-2">BRAND</P>
 				<P id="img-text-3">Strategies</P>
-				<p id="img-text-4">marketing + design + web</p>
+				<p id="img-text-4">development + design + marketing</p>
 				<div id="learn-more-outside">
 					<div id="learn-more">Learn More</div>
 				</div>
@@ -47,9 +47,10 @@
 					<!-- Start Skills Tiles-->
 					<div class="skills-tiles">
             <div class="tiles">
-              <img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/github.png"
-              alt="Github Icon">
-                <h3>My Github</h3>
+              <a href="https://github.com/ErinBlack/"><img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/github.png"
+              alt="Github Icon"></a>
+                <h3><a href="https://github.com/ErinBlack/">My Github</a></h3>
+
             </div>
 						<div class="tiles">
               <img src="http://localhost:8888/my-theme/wp-content/uploads/2017/08/resume.png"

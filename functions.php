@@ -62,7 +62,8 @@ add_action( 'after_setup_theme', 'eb_portfolio_setup' );
 //getting style.css
 function portfolio_scripts(){
 	//echo get_stylesheet_uri();
-	wp_enqueue_style( 'portfolio-style', get_stylesheet_uri() );
+	// wp_enqueue_style( 'portfolio-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'portfolio-style',  get_stylesheet_uri());
 	wp_enqueue_style('google-webfonts-questrial', 'https://fonts.googleapis.com/css?family=Questrial' );
 	wp_enqueue_style('google-webfonts-raleway', 'https://fonts.googleapis.com/css?family=Raleway' );
 	wp_enqueue_style('google-webfonts-sanchez', 'https://fonts.googleapis.com/css?family=Sanchez' );

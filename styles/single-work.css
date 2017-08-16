@@ -12,3 +12,28 @@
 .title-image img{
   width: 100%;
 }
+
+.text-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+
+}
+
+.entry-content {
+  margin-top: 5%;
+  padding: 0 40px;
+}
+
+.container {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.two-grid {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.two-grid-img {
+  width: 200px;
+}

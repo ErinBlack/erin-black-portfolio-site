@@ -25,8 +25,17 @@
 }
 
 .container {
+  overflow: hidden;
   width: 100%;
   margin-top: 5%;
+}
+
+
+
+.two-grid {
+  width: 50%;
+  float: left;
+  text-align: center;
 }
 
 .two-grid {
@@ -34,6 +43,22 @@
   float: left;
   text-align: center;
 }
+
+.two-grid h3 {
+  font-size: 150%;
+  margin: 30px 0;
+}
+
+.two-grid a {
+  color: #bd735a;
+}
+
+.three-grid {
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
 .two-grid-img {
-  width: 200px;
+  width: 150px;
 }

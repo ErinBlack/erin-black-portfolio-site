@@ -7,6 +7,8 @@ Tags: portfolio
 */
 
 /* General CSS*/
+
+@import 'styles/single-work.css';
 * {
  margin: 0;
 }

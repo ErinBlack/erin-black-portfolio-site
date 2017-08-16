@@ -1,0 +1,14 @@
+.entry-title  {
+  text-align: center;
+  padding: 60px;
+  background-color: #bf745f;
+}
+
+.entry-title  a {
+  text-decoration: none;
+  color: white;
+}
+
+.title-image img{
+  width: 100%;
+}

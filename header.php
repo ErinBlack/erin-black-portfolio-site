@@ -21,10 +21,3 @@
    <?php wp_head(); ?>
 </head>
 <body>
-
-  <?php if ( ! dynamic_sidebar( 'uptop' ) ); ?>
-		<!-- Header -->
-    <header>
-
-		</header>
-		<!-- End Header -->

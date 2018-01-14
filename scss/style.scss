@@ -1,3 +1,3 @@
-a { color: blue; &:hover { color: red; } }
-
-h2 { color: blue; &:hover { color: red; } }
+@import '_single-work.scss';
+@import '_mainStyles';
+@import 'modules/_headerImg';
